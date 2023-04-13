@@ -15,7 +15,7 @@ There are 30 users, and total 5 activity classes.
 ```  
 
 # Quick Start
-1. Download sample [dataset]. We provided user_06 dataset.
+1. Download sample [dataset](). We provided user_06 dataset.
   
 2. Move to the file into data folder
 ```
@@ -44,7 +44,7 @@ data
   
 5. Implementation 'train.py'
 ```
-# In python terminal,
+# In python terminal
 $(your path)> python train.py
 ```
   

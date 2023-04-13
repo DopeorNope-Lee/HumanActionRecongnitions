@@ -14,7 +14,7 @@
 
 
 # Performance 
-- ** About User_01 Performance **  
+- About User_01 Performance.
   
 | Variable | Accuracy | F1-score | Precision | Recall | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -23,7 +23,7 @@
 | `mMag` | 0.8945 | 0.8918 | 0.9718 | 0.8239 |
 | `mAcc+mGyr+mMag` | 0.9139 | 0.9059 | 0.9741 | 0.8466 |
 
-- ** The impact of the high-frequency positional encoding. ** 
+- The impact of the high-frequency positional encoding.
    
 | φx | Accuracy | F1-score | Precision | Recall | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |

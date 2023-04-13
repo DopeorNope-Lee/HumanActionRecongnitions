@@ -19,8 +19,8 @@ There are 30 users, and total 5 activity classes.
 1. And you some setting the 'Data_Merge_Processing.R' code.
 ```
 For example)
-Change setwd() function. 
-Change the save path.
+1. Change setwd() function. 
+2. Change the save path.
 ...
 ```
 

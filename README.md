@@ -8,7 +8,7 @@
 
 
 # Dataset
-[ETRI](https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR)
+In this project, we use [ETRI](https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) dataset.
 ```
 We use 2018 ETRI life log dataset.
 There are 30 users, and total 5 activity classes.

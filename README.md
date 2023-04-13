@@ -2,18 +2,17 @@
 > Make transformer encoder with high-frequency positional encoding and MLP decoder.
 ![ss-former_overview](https://user-images.githubusercontent.com/98331298/231897843-e5542980-6b6d-4de3-87ee-fc77ab7a225c.jpg)
 ![decoder](https://user-images.githubusercontent.com/98331298/231897806-3496fde7-fd5b-4dfa-899e-7f3e52d029c5.jpg)
-
+  
 # Introduction
-
-
-
+[AI factory](https://aifactory.space/competition/detail/2234)
+  
 # Dataset
 In this project, we use [ETRI](https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) dataset.
 ```
 We use 2018 ETRI life log dataset.
 There are 30 users, and total 5 activity classes.
 ```  
-
+  
 # Quick Start
 1. Download sample [dataset](). We provided user_06 dataset.
   
@@ -57,7 +56,7 @@ $(your path)> python train.py
 | `mGyr` | 0.9045 | 0.8818 | 0.9744 | 0.8052 |
 | `mMag` | 0.8945 | 0.8918 | 0.9718 | 0.8239 |
 | `mAcc+mGyr+mMag` | 0.9139 | 0.9059 | 0.9741 | 0.8466 |
-
+  
 - The impact of the high-frequency positional encoding.
    
 | φx | Accuracy | F1-score | Precision | Recall | 

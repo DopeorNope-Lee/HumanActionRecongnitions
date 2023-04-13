@@ -13,6 +13,19 @@ We use 2018 ETRI life log dataset.
 There are 30 users, and total 5 activity classes.
 ```  
   
+# Data preprocessing (merge part)
+0. If you want implement data merging, first you download 'dataset_2018.7z' files in [ETRI](https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR). 
+
+1. And you some setting the 'Data_Merge_Processing.R' code.
+```
+For example)
+Change setwd() function. 
+Change the save path.
+...
+```
+
+2. Implementation the R code.
+    
 # Quick Start
 1. Download sample [dataset](). We provided user_06 dataset.
   

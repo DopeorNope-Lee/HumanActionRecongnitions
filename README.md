@@ -28,12 +28,12 @@ For example)
 2. Implementation the R code.
     
 # Quick Start
-1. Download sample [dataset](). We provided user_06 dataset.
+1. Download sample [dataset](). We provided user_25 dataset.
   
 2. Move to the file into data folder
 ```
 data
-├── user_06.csv
+├── user_25.csv
 └── ...
 ```
   
@@ -45,7 +45,7 @@ If you want use whole variables or using another user etc, you will change among
  4. There are exists dataset.
  ```
 data
-├── user_06.csv
+├── user_25.csv
 ├── X_train.npy
 ├── X_valid.npy
 ├── X_test.npy

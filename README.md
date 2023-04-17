@@ -10,8 +10,8 @@
 # Dataset
 In this project, we use [ETRI](https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) dataset.
 ```
-We use 2018 ETRI life log dataset.
-There are 30 users, and total 5 activity classes.
+We use 2018 and 2019 ETRI life log dataset.
+There are 50 users, and total 5 activity classes.
 ```  
   
 # Data preprocessing (merge part)
@@ -62,7 +62,7 @@ $(your path)> python train.py
 ```
   
 # Performance 
-- About User_01 Performance.
+- Performance of the proposed model for human activity classification for User_01  
   
 | Variable | Accuracy | F1-score | Precision | Recall | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -71,9 +71,34 @@ $(your path)> python train.py
 | `mMag` | 0.8945 | 0.8918 | 0.9718 | 0.8239 |
 | `mAcc+mGyr+mMag` | 0.9139 | 0.9059 | 0.9741 | 0.8466 |
   
-- The impact of the high-frequency positional encoding.
+- The results with and without the use of high-frequency positional encoding for User_01  
    
 | φx | Accuracy | F1-score | Precision | Recall | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | `w/o φx` | 0.8801 | 0.8694 | 0.9498 | 0.8016 |
 | `w/ φx` | 0.9263 | 0.9156 | 0.9827 | 0.8570 |
+
+- Accuracy and F1-score of the proposed model for 20 randomly selected users  
+   
+| User | Accuracy | F1-score |  
+| ------------- | ------------- | ------------- | 
+| User_01 | 0.9263 | 0.9156 | 
+| User_02 | 0.9021 | 0.xxxx | 
+| User_03 | 0.9072 | 0.xxxx | 
+| User_06 | 0.9250 | 0.xxxx | 
+| User_14 | 0.9104 | 0.xxxx | 
+| User_16 | 0.9034 | 0.xxxx | 
+| User_18 | 0.9029 | 0.xxxx | 
+| User_19 | 0.9053 | 0.8929 | 
+| User_20 | 0.9122 | 0.xxxx | 
+| User_25 | 0.9458 | 0.xxxx | 
+| User_101 | 0.9201 | 0.9144 | 
+| User_104 | 0.9111 | 0.8926 | 
+| User_105 | 0.9435 | 0.9381 | 
+| User_108 | 0.9224 | 0.8948 | 
+| User_109 | 0.9431 | 0.9368 | 
+| User_112 | 0.9003 | 0.8773 | 
+| User_113 | 0.9610 | 0.9548 | 
+| User_115 | 0.9048 | 0.8793 | 
+| User_117 | 0.9229 | 0.9116 | 
+| User_119 | 0.xxxx | 0.xxxx | 

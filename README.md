@@ -80,7 +80,7 @@ $(your path)> python train.py
 
 - Accuracy and F1-score of the proposed model for 20 randomly selected users  
    
-| User | Accuracy | F1-score |  
+| User_num | Accuracy | F1-score |  
 | ------------- | ------------- | ------------- | 
 | User_01 | 0.9263 | 0.9156 | 
 | User_02 | 0.9021 | 0.xxxx | 

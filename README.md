@@ -1,5 +1,6 @@
 # SS-Former(Sensor Series Transformer)
 > Make transformer encoder with high-frequency positional encoding and residual MLP decoder.  
+  
 ![ss-former_overview](https://user-images.githubusercontent.com/98331298/231897843-e5542980-6b6d-4de3-87ee-fc77ab7a225c.jpg)  
 > SS-Former Overview    
     

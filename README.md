@@ -36,7 +36,7 @@ For example)
 2. Move to the file into data folder
 ```
 data
-├── user_6.csvc
+├── user_6.csv
 ├── user_113.csv
 └── ...
 ```

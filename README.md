@@ -18,7 +18,7 @@ tensorflow-addons 0.19.0
 numpy 1.23.5
 pandas 2.0.0
 matplotlib 3.7.1
-scikit-learn 1.2.1
+scikit-learn 1.2.2
 tqdm 4.65.0
 ```
  

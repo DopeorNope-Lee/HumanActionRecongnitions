@@ -9,7 +9,19 @@
   
 # Introduction
 [AI factory](https://aifactory.space/competition/detail/2234)
-  
+   
+# Environment
+```
+Python 3.10.10  
+tensorflow 2.12.0
+tensorflow-addons 0.19.0
+numpy 1.23.5
+pandas 2.0.0
+matplotlib 3.7.1
+scikit-learn 1.2.1
+tqdm 4.65.0
+```
+ 
 # Dataset
 In this project, we use [ETRI](https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR) dataset.
 ```

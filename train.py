@@ -8,26 +8,16 @@
 Step0) Import module
 '''
 from keras.callbacks import EarlyStopping, ReduceLROnPlateau
-from typing import Tuple
 import os
-import random
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import tensorflow_addons as tfa
-from tensorflow.keras.models import Sequential, load_model
 from tensorflow.keras.callbacks import EarlyStopping
-from tensorflow.keras.metrics import RootMeanSquaredError, MeanAbsoluteError
 from tensorflow import keras
 from tensorflow.keras import layers
 from tqdm import tqdm
-from tensorflow.keras.utils import Sequence
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OneHotEncoder,StandardScaler
-from numba import cuda
-from keras.utils import get_file
-import os
 from tensorflow.python.client import device_lib
 
 # check GPU option
